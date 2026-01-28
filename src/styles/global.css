@@ -1,0 +1,23 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --decision-yes: #2ecc71;
+  --decision-no: #e74c3c;
+  --decision-background: #1a1a2e;
+  --decision-text: #eaeaea;
+}
+
+body {
+  background-color: var(--decision-background);
+  color: var(--decision-text);
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden; /* Prevent scroll for the "Arena" feel */
+}
+
+.decision-arena-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: radial-gradient(circle at center, #242442 0%, #1a1a2e 100%);
+}
